@@ -11,4 +11,5 @@ const calculo = () => {
 process.on('message', mesajeComputoSend => {
     
     process.send(`${calculo()}`)
+    
 })
